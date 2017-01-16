@@ -47,7 +47,7 @@ lua_cpath = skynetroot .. "luaclib/?.so;" .. "./luaclib/?.so"
 --daemon = "./game.pid"
 
 port = 5189					-- 监听端口
-maxclient = 100				-- 最大连接数
+maxclient = 1000				-- 最大连接数
 
 mysql_maxconn = 10					-- mysql数据库最大连接数
 mysql_host = "$METOO_MYSQL_HOST"	-- mysql数据库主机
